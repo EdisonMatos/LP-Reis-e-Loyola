@@ -15,7 +15,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function DefaultModals({ modal="true" }) {
+export default function DefaultModals({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -50,7 +50,7 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
-                  paragraph="a_Definir"
+                  paragraph="Oferecemos representação jurídica especializada para pessoas físicas e jurídicas que estão enfrentando processos de execução ou cobrança por dívidas bancárias."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -104,7 +104,7 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
-                  paragraph="a_Definir"
+                  paragraph="Realizamos uma análise detalhada de contratos e dívidas bancárias, identificando irregularidades e abusividades."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -158,7 +158,7 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
-                  paragraph="a_Definir."
+                  paragraph="Oferecemos assistência jurídica especializada para produtores rurais, solucionando débitos sem comprometer seu patrimônio."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -212,7 +212,7 @@ export default function DefaultModals({ modal="true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
-                  paragraph="a_Definir "
+                  paragraph="Oferecemos soluções eficazes para a gestão de passivos bancários, tanto para empresas quanto para pessoas físicas. "
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -223,6 +223,222 @@ export default function DefaultModals({ modal="true" }) {
                       onClick(
                         content.texts.features.card4.title,
                         content.texts.features.card4.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card5.icon}
+                  title={content.texts.features.card5.title}
+                  paragraph="Atuamos para suspender e anular leilões de bens imóveis, veículos e outros patrimônios ameaçados por penhoras.  "
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card5.title,
+                        content.texts.features.card5.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card6.icon}
+                  title={content.texts.features.card6.title}
+                  paragraph="Nossa equipe especializada irá analisar detalhadamente o seu caso podendo reduzir drasticamente o valor de suas parcelas. "
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card6.title,
+                        content.texts.features.card6.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card7.icon}
+                  title={content.texts.features.card7.title}
+                  paragraph="Oferecemos uma equipe especializada em fraudes e golpes bancários. "
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card7.title,
+                        content.texts.features.card7.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card8.icon}
+                  title={content.texts.features.card8.title}
+                  paragraph="Nossa equipe especializada atua para proteger seus rendimentos e devolver sua tranquilidade financeira. "
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card8.title,
+                        content.texts.features.card8.subtitle,
                         <>
                           <p className="my-[20px]">
                             Quer saber mais? Clique abaixo 👇
