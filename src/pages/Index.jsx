@@ -28,14 +28,15 @@ export default function Index() {
       />
 
       <About modal={true} />
-      {/* <AboutInstagram
+      <AboutInstagram
         socialPrint={false}
+        whatsapp={true}
         instagram={false}
         facebook={false}
-        linkedin={true}
+        linkedin={false}
         x={false}
         test={true}
-      /> */}
+      />
       <Cta />
       <Steps />
       <Faq />

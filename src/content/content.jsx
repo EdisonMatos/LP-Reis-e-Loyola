@@ -2,7 +2,7 @@ import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
+import aboutSocial from "../assets/imgs/about/aboutSocial.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -489,44 +489,48 @@ const content = {
         "Sólida experiência em renegociação bancária, leilões e reestruturação de dívidas.",
       paragraph: (
         <div>
-          Com vasta experiência no setor bancário e jurídico, o escritório Reis
-          & Loyola Advocacia se especializa em renegociação bancária, defesa em
-          leilões judiciais e extrajudiciais, além da consolidação de
-          propriedades.
-          <br />
-          Nosso trabalho focado na reestruturação de passivos já impactou
-          milhões de reais, com um histórico de sucesso em garantir soluções
-          jurídicas sólidas para nossos clientes.
+          Com o objetivo de combater os abusos cometidos por instituições
+          financeiras contra os consumidores, o escritório Reis & Loyola
+          especializou-se na defesa de devedores, oferecendo expertise em
+          renegociação de dívidas bancárias, defesa em execuções judiciais,
+          suspensão de leilões judiciais e extrajudiciais, além de blindagem
+          patrimonial.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com vasta experiência no setor bancário e jurídico, o escritório Reis
-          & Loyola Advocacia se especializa em renegociação bancária, defesa em
-          leilões judiciais e extrajudiciais, além da consolidação de
-          propriedades.
+          Com o objetivo de combater os abusos cometidos por instituições
+          financeiras contra os consumidores, o escritório Reis & Loyola
+          especializou-se na defesa de devedores, oferecendo expertise em
+          renegociação de dívidas bancárias, defesa em execuções judiciais,
+          suspensão de leilões judiciais e extrajudiciais, além de blindagem
+          patrimonial.
           <br />
           <br />
-          Nosso trabalho focado na reestruturação de passivos já impactou
-          milhões de reais, com um histórico de sucesso em garantir soluções
-          jurídicas sólidas para nossos clientes.
+          Nosso trabalho vai muito além de um simples serviço jurídico. Nascemos
+          com o propósito de entregar aos nossos clientes tranquilidade,
+          segurança e justiça da forma mais rápida, eficiente e segura possível.
           <br />
           <br />
-          Nossa experiência inclui a defesa de grandes empresários e do
-          agronegócio, com a implementação de estratégias que buscam não apenas
-          proteger, mas também recuperar e preservar ativos valiosos.
+          Acreditamos que todos têm o direito de viver livres de preocupações
+          financeiras e cobranças abusivas.
           <br />
           <br />
-          A ética e a transparência são os pilares que sustentam nosso trabalho,
-          sempre buscando a melhor solução para cada cliente.
+          Com um histórico de sucesso, já impactamos positivamente diversos
+          clientes, gerando milhões de reais em descontos e repactuações. Nossas
+          estratégias visam não apenas proteger o devedor e seus bens, mas
+          também recuperar e preservar seu patrimônio de forma integral,
+          devolvendo a tranquilidade financeira e a confiança que nossos
+          clientes merecem.
           <br />
           <br />
-          Acreditamos no direito como ferramenta de justiça e no compromisso de
-          entregar resultados de excelência, respeitando os princípios legais e
-          valores fundamentais do direito.
+          Com atuação em todo o território nacional, prezamos pela ética,
+          transparência e compromisso com a melhor solução para cada cliente.
           <br />
           <br />
+          Esses são os pilares que sustentam nosso trabalho e nossa relação de
+          confiança com quem nos escolhe.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -538,9 +542,11 @@ const content = {
           imgPrint: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
+        miniTag: "ASSESSORIA JURÍDICA NACIONAL",
+        title: "Atendimento on-line em todo Brasil",
+        subtitle:
+          "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
+        labelwhatsapp: "Entre em contato agora",
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
@@ -557,7 +563,7 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "Buscando soluções para a suas dívidas? Deixe que cuidamos disso pra você!",
       subtitle:
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
@@ -573,25 +579,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Ao entrar em contato com nosso escritório voce já será atendido por um de nossos advogados especializados.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Durante seu atendimento analisaremos todos seus contratos bancários, bem como as possíveis ações judiciais ou leilões em curso para traçar a melhor estratégia para o seu caso. ",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Nossa equipe especializada irá elaborar uma estratégia e um plano de ação para cada um de seus débitos, buscando sempre uma solução personalizada e ágil para nosso cliente.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Após o fechamento de contrato, nosso corpo jurídico irá atuar com afinco para o cumprimento de todas estratégias traçadas para nosso cliente, protegendo seus bens e resolvendo seus débitos de maneira segura e eficiente.",
         },
       },
     },
