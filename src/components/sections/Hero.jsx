@@ -3,9 +3,35 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 
+import ImageGallery from "react-image-gallery";
+import heroImg1 from "../../assets/imgs/hero/imgHero2.png";
+import heroImg2 from "../../assets/imgs/hero/imgHero3.jpg";
+import heroImg3 from "../../assets/imgs/hero/imgHero4.jpg";
+import heroImg4 from "../../assets/imgs/hero/imgHero5.jpg";
+import "react-image-gallery/styles/css/image-gallery.css";
+
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Hero({ appDownloadButtons }) {
+  const images = [
+    {
+      original: heroImg1,
+      thumbnail: heroImg1,
+    },
+    {
+      original: heroImg2,
+      thumbnail: heroImg2,
+    },
+    {
+      original: heroImg3,
+      thumbnail: heroImg3,
+    },
+    {
+      original: heroImg4,
+      thumbnail: heroImg4,
+    },
+  ];
+
   return (
     <div
       className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
@@ -95,14 +121,41 @@ export default function Hero({ appDownloadButtons }) {
               </div>
             </div>
             <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
-              <MotionDivDownToUp className="relative flex justify-end w-full ">
-                <div
+              <MotionDivDownToUp className="relative flex justify-center w-full ">
+                {/* <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
                   }}
-                ></div>
+                ></div> */}
+                <div className="w-full">
+                  <ImageGallery
+                    items={images}
+                    showNav={false} // Ativando a navegação
+                    showFullscreenButton={false} // Desativando botão de tela cheia
+                    useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
+                    showBullets={false}
+                    showPlayButton={false} // Remove o botão de play
+                    showThumbnails={false} // Remove as miniaturas
+                    autoPlay={true}
+                    additionalClass="custom-gallery"
+                  />
+                  <style>
+                    {`
+                    .custom-gallery .image-gallery-slide img {
+                      height: auto; 
+                      width: 100%;
+                    }
+
+                    .custom-gallery .image-gallery-thumbnails img {
+                      height: 60px;  
+                      width: 100px;  
+                      object-fit: cover; 
+                    }
+                  `}
+                  </style>
+                </div>
               </MotionDivDownToUp>
             </div>
           </div>
