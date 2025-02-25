@@ -43,7 +43,7 @@ export default function AboutInstagram({
               style={{
                 backgroundImage: `url(${content.texts.about.aboutSocial.img.img})`,
               }}
-              className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl "
+              className="relative bg-center bg-no-repeat bg-cover w-full h-[300px] phone2:h-[350px] phone3:h-[360px] tablet1:h-[550px] tablet2:h-[670px] desktop1:h-[400px] desktop2:h-[500px] rounded-xl"
             ></div>
           </MotionDivDownToUp>
         )}
