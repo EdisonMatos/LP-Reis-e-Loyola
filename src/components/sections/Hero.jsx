@@ -50,12 +50,12 @@ export default function Hero({ appDownloadButtons }) {
                 </div>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] desktop1:leading-[30px] desktop1:text-title3 desktop2:leading-[45px] desktop2:text-title5 text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6 tablet1:leading-[55px]">
                   <h1 className="">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5 desktop1:text-paragraph4">
                   <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
