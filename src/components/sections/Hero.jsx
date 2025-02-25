@@ -4,10 +4,10 @@ import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 
 import ImageGallery from "react-image-gallery";
-import heroImg1 from "../../assets/imgs/hero/imgHero2.jpg";
-import heroImg2 from "../../assets/imgs/hero/imgHero3.jpg";
-import heroImg3 from "../../assets/imgs/hero/imgHero4.jpg";
-import heroImg4 from "../../assets/imgs/hero/imgHero5.jpg";
+import heroImg1 from "../../assets/imgs/hero/imgHero2.png";
+import heroImg2 from "../../assets/imgs/hero/imgHero3.png";
+import heroImg3 from "../../assets/imgs/hero/imgHero4.png";
+import heroImg4 from "../../assets/imgs/hero/imgHero5.png";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
