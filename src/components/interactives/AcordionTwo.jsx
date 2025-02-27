@@ -134,6 +134,87 @@ export default function AccordionExpandDefault() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      {/* Accordion 5 */}
+      <Accordion
+        className="mb-[3%]"
+        expanded={expanded === "panel5"}
+        onChange={handleChange("panel5")}
+        style={getPanelStyle("panel5")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4-content"
+          id="panel4-header"
+        >
+          <Typography>
+            <h1 className="font-bold font-secondFont">
+              {content.texts.faq.questions.question5.question}
+            </h1>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              {content.texts.faq.questions.question5.answer}
+            </p>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* Accordion 6 */}
+      <Accordion
+        className="mb-[3%]"
+        expanded={expanded === "panel6"}
+        onChange={handleChange("panel6")}
+        style={getPanelStyle("panel6")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4-content"
+          id="panel4-header"
+        >
+          <Typography>
+            <h1 className="font-bold font-secondFont">
+              {content.texts.faq.questions.question6.question}
+            </h1>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              {content.texts.faq.questions.question6.answer}
+            </p>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* Accordion 7 */}
+      <Accordion
+        className="mb-[3%]"
+        expanded={expanded === "panel7"}
+        onChange={handleChange("panel7")}
+        style={getPanelStyle("panel7")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4-content"
+          id="panel4-header"
+        >
+          <Typography>
+            <h1 className="font-bold font-secondFont">
+              {content.texts.faq.questions.question7.question}
+            </h1>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
+              {content.texts.faq.questions.question7.answer}
+            </p>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }

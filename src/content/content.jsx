@@ -54,9 +54,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Líbero Badaró, Quadra 14, Lote 05</p>
-      <p>Cidade Jardim, Goiânia - GO</p>
-      <p>CEP 74425-325</p>
+      <p>Rua Brasil, nº 50, Setor Bueno</p>
+      <p>CGoiânia - GO</p>
+      <p>CEP 74215-070</p>
     </div>
   ),
   expediente: (
@@ -125,7 +125,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online e presencial em Goiânia",
+        text: "Atendimento em todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -487,48 +487,63 @@ const content = {
         "Sólida experiência em renegociação bancária, leilões e reestruturação de dívidas.",
       paragraph: (
         <div>
-          Com o objetivo de combater os abusos cometidos por instituições
-          financeiras contra os consumidores, o escritório Reis & Loyola
-          especializou-se na defesa de devedores, oferecendo expertise em
-          renegociação de dívidas bancárias, defesa em execuções judiciais,
-          suspensão de leilões judiciais e extrajudiciais, além de blindagem
-          patrimonial.
+          Fundado pelos sócios Dr. Daniel Reis e Dr. Tiago Loyola, o escritório
+          Reis & Loyola é referência nacional na defesa de devedores em dívidas
+          bancárias, oferecendo soluções jurídicas especializadas e
+          personalizadas para clientes que enfrentam desafios financeiros.
+          <br />O Dr. Daniel Reis é formado em direito pela Universidade Federal
+          de Goiás (UFG), com especialização em dívidas rurais e gestão de
+          passivos, possui vasta experiência na renegociação e recuperação de
+          créditos vinculados ao agronegócio, bem como na reestruturação
+          financeira de pessoa física e jurídica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com o objetivo de combater os abusos cometidos por instituições
-          financeiras contra os consumidores, o escritório Reis & Loyola
-          especializou-se na defesa de devedores, oferecendo expertise em
-          renegociação de dívidas bancárias, defesa em execuções judiciais,
-          suspensão de leilões judiciais e extrajudiciais, além de blindagem
-          patrimonial.
+          Fundado pelos sócios Dr. Daniel Reis e Dr. Tiago Loyola, o escritório
+          Reis & Loyola é referência nacional na defesa de devedores em dívidas
+          bancárias, oferecendo soluções jurídicas especializadas e
+          personalizadas para clientes que enfrentam desafios financeiros.
           <br />
           <br />
-          Nosso trabalho vai muito além de um simples serviço jurídico. Nascemos
-          com o propósito de entregar aos nossos clientes tranquilidade,
-          segurança e justiça da forma mais rápida, eficiente e segura possível.
+          O Dr. Daniel Reis é formado em direito pela Universidade Federal de
+          Goiás (UFG), com especialização em dívidas rurais e gestão de
+          passivos, possui vasta experiência na renegociação e recuperação de
+          créditos vinculados ao agronegócio, bem como na reestruturação
+          financeira de pessoa física e jurídica.
           <br />
           <br />
-          Acreditamos que todos têm o direito de viver livres de preocupações
-          financeiras e cobranças abusivas.
+          O Dr. Tiago Loyola também é formado em direito pela Universidade
+          Federal de Goiás (UFG), com especialização em direito bancário e do
+          consumidor, possui ampla experiência em operações financeiras,
+          contratos bancários, práticas abusivas e processos de execução.
           <br />
           <br />
-          Com um histórico de sucesso, já impactamos positivamente diversos
-          clientes, gerando milhões de reais em descontos e repactuações. Nossas
-          estratégias visam não apenas proteger o devedor e seus bens, mas
-          também recuperar e preservar seu patrimônio de forma integral,
-          devolvendo a tranquilidade financeira e a confiança que nossos
-          clientes merecem.
+          O trabalho fornecido pelo escritório vai muito além de um simples
+          serviço jurídico. Nascemos com o propósito de entregar aos nossos
+          clientes tranquilidade, segurança e justiça da forma mais rápida,
+          eficiente e segura possível.
           <br />
           <br />
-          Com atuação em todo o território nacional, prezamos pela ética,
-          transparência e compromisso com a melhor solução para cada cliente.
+          O escritório compreende as dificuldades enfrentadas por pessoas
+          físicas e jurídicas em situações de endividamento e busca, por meio de
+          soluções jurídicas eficientes, aliviar o peso das dívidas, proteger o
+          patrimônio e garantir a dignidade financeira de seus clientes.
           <br />
           <br />
-          Esses são os pilares que sustentam nosso trabalho e nossa relação de
-          confiança com quem nos escolhe.
+          Acreditamos que todos têm o direito de viver livres de preocupações
+          financeiras e cobranças abusivas.
+          <br />
+          <br />
+          Com um histórico de sucesso, já impactamos positivamente milhares de
+          clientes, gerando milhões de reais em descontos e repactuações.
+          <br />
+          <br />
+          Combinando conhecimento técnico, experiência prática e compromisso com
+          os resultados, o escritório Reis & Loyola é a escolha certa para quem
+          busca uma defesa sólida e especializada em dívidas bancárias, sempre
+          com foco na ética, transparência e excelência jurídica.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -607,22 +622,37 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Para contratar nossos serviços, basta agendar uma consulta conosco via WhatsApp. Durante a consulta, conversaremos sobre suas necessidades e analisaremos seu caso detalhadamente e apresentaremos as melhores soluções. Entre em contato agora mesmo e dê o primeiro passo para resolver sua situação!",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "O que acontece se eu não pagar uma dívida bancária?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "A falta de pagamento pode levar a cobranças judiciais e extrajudiciais, como penhora de bens, bloqueio de contas entre outras inúmeras situações delicadas para o devedor. Para entender os riscos específicos do seu caso, fale conosco e agende uma análise personalizada.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "O que é uma execução de dívida bancária?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "A execução de dívida bancária é um processo judicial em que o banco busca cobrar o valor devido. Se você foi notificado ou está preocupado com uma possível execução, entre em contato conosco para analisarmos suas opções de defesa.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "O que fazer se eu for notificado de uma ação de execução?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Se você foi notificado, é crucial agir rapidamente buscando ajuda especializada para minimizar todos os danos que a ação pode causar . Entre em contato conosco imediatamente para analisarmos a legalidade da cobrança e prepararmos sua defesa.",
+        },
+        question5: {
+          question: "O que é um leilão extrajudicial?",
+          answer:
+            "O leilão extrajudicial é uma venda de bens (como imóveis, veículos ou maquinários) realizada por instituições financeiras para quitar dívidas não pagas. Ele ocorre sem a necessidade de uma ação judicial. Se seu bem está em risco de leilão, entre em contato conosco para avaliarmos suas opções de defesa.",
+        },
+        question6: {
+          question: "O que é um leilão judicial?",
+          answer:
+            "O leilão judicial é realizado por determinação de um juiz, geralmente em processos de execução de dívidas. Os bens do devedor são penhorados e vendidos para pagar a dívida. Se você recebeu uma notificação de leilão judicial, fale conosco para analisarmos seu caso e proteger seus direitos.",
+        },
+        question7: {
+          question: "Posso impedir um leilão extrajudicial ou judicial?",
+          answer:
+            "Sim, em muitos casos é possível suspender ou cancelar um leilão, especialmente se houver irregularidades na cobrança ou se o valor da dívida for questionável. Entre em contato conosco para avaliarmos as possibilidades de defesa no seu caso.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
