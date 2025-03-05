@@ -46,7 +46,7 @@ export default function DefaultModals({ modal = "true" }) {
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
             <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
@@ -100,7 +100,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
@@ -154,7 +154,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
@@ -208,7 +208,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
@@ -262,7 +262,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
@@ -316,7 +316,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card6.icon}
                   title={content.texts.features.card6.title}
@@ -370,7 +370,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card7.icon}
                   title={content.texts.features.card7.title}
@@ -424,7 +424,7 @@ export default function DefaultModals({ modal = "true" }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid bg-white px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card8.icon}
                   title={content.texts.features.card8.title}

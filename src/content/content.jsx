@@ -487,63 +487,69 @@ const content = {
         "Sólida experiência em renegociação bancária, leilões e reestruturação de dívidas.",
       paragraph: (
         <div>
-          Fundado pelos sócios Dr. Daniel Reis e Dr. Tiago Loyola, o escritório
-          Reis & Loyola é referência nacional na defesa de devedores em dívidas
-          bancárias, oferecendo soluções jurídicas especializadas e
-          personalizadas para clientes que enfrentam desafios financeiros.
-          <br />O Dr. Daniel Reis é formado em direito pela Universidade Federal
-          de Goiás (UFG), com especialização em dívidas rurais e gestão de
-          passivos, possui vasta experiência na renegociação e recuperação de
-          créditos vinculados ao agronegócio, bem como na reestruturação
-          financeira de pessoa física e jurídica.
+          Fundado pelos sócios Daniel Reis e Tiago Loyola, o escritório Reis &
+          Loyola é referência nacional na defesa de devedores em dívidas
+          bancárias. Especializado em oferecer soluções jurídicas
+          personalizadas, o escritório atua com excelência para clientes que
+          enfrentam desafios financeiros, garantindo proteção patrimonial e
+          dignidade financeira.
+          <br />
+          <br />
+          Dr. Daniel Reis, formado em Direito pela Universidade Federal de Goiás
+          (UFG), é especialista em dívidas rurais e gestão de passivos. Com
+          vasta experiência em renegociação e recuperação de créditos vinculados
+          ao agronegócio, além de reestruturação financeira para pessoas físicas
+          e jurídicas, ele traz um profundo conhecimento técnico e estratégico
+          para cada caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Fundado pelos sócios Dr. Daniel Reis e Dr. Tiago Loyola, o escritório
-          Reis & Loyola é referência nacional na defesa de devedores em dívidas
-          bancárias, oferecendo soluções jurídicas especializadas e
-          personalizadas para clientes que enfrentam desafios financeiros.
+          Fundado pelos sócios Daniel Reis e Tiago Loyola, o escritório Reis &
+          Loyola é referência nacional na defesa de devedores em dívidas
+          bancárias. Especializado em oferecer soluções jurídicas
+          personalizadas, o escritório atua com excelência para clientes que
+          enfrentam desafios financeiros, garantindo proteção patrimonial e
+          dignidade financeira.
           <br />
           <br />
-          O Dr. Daniel Reis é formado em direito pela Universidade Federal de
-          Goiás (UFG), com especialização em dívidas rurais e gestão de
-          passivos, possui vasta experiência na renegociação e recuperação de
-          créditos vinculados ao agronegócio, bem como na reestruturação
-          financeira de pessoa física e jurídica.
+          Dr. Daniel Reis, formado em Direito pela Universidade Federal de Goiás
+          (UFG), é especialista em dívidas rurais e gestão de passivos. Com
+          vasta experiência em renegociação e recuperação de créditos vinculados
+          ao agronegócio, além de reestruturação financeira para pessoas físicas
+          e jurídicas, ele traz um profundo conhecimento técnico e estratégico
+          para cada caso.
           <br />
           <br />
-          O Dr. Tiago Loyola também é formado em direito pela Universidade
-          Federal de Goiás (UFG), com especialização em direito bancário e do
-          consumidor, possui ampla experiência em operações financeiras,
-          contratos bancários, práticas abusivas e processos de execução.
+          Dr. Tiago Loyola, também graduado em Direito pela UFG, é especialista
+          em direito bancário e do consumidor. Com ampla atuação em operações
+          financeiras, contratos bancários, práticas abusivas e processos de
+          execução, ele combina expertise jurídica e sensibilidade para lidar
+          com as complexidades do sistema financeiro.
           <br />
           <br />
-          O trabalho fornecido pelo escritório vai muito além de um simples
-          serviço jurídico. Nascemos com o propósito de entregar aos nossos
-          clientes tranquilidade, segurança e justiça da forma mais rápida,
-          eficiente e segura possível.
-          <br />
-          <br />
-          O escritório compreende as dificuldades enfrentadas por pessoas
-          físicas e jurídicas em situações de endividamento e busca, por meio de
-          soluções jurídicas eficientes, aliviar o peso das dívidas, proteger o
-          patrimônio e garantir a dignidade financeira de seus clientes.
+          No Reis & Loyola, o trabalho vai além de um simples serviço jurídico.
+          Nosso propósito é entregar tranquilidade, segurança e justiça de forma
+          ágil, eficiente e transparente. Compreendemos as dificuldades
+          enfrentadas por quem está endividado e buscamos, por meio de soluções
+          jurídicas eficazes, aliviar o peso das dívidas, proteger patrimônios e
+          restaurar a dignidade financeira de nossos clientes.
           <br />
           <br />
           Acreditamos que todos têm o direito de viver livres de preocupações
-          financeiras e cobranças abusivas.
+          financeiras e cobranças abusivas. Com um histórico de sucesso, já
+          impactamos positivamente milhares de clientes, gerando milhões de
+          reais em descontos e repactuações.
           <br />
           <br />
-          Com um histórico de sucesso, já impactamos positivamente milhares de
-          clientes, gerando milhões de reais em descontos e repactuações.
+          Combinando conhecimento técnico, experiência prática e um compromisso
+          inabalável com os resultados, o escritório Reis & Loyola é a escolha
+          certa para quem busca uma defesa sólida e especializada em dívidas
+          bancárias. Atuamos sempre com ética, transparência e excelência
+          jurídica, garantindo a melhor solução para cada caso.
           <br />
           <br />
-          Combinando conhecimento técnico, experiência prática e compromisso com
-          os resultados, o escritório Reis & Loyola é a escolha certa para quem
-          busca uma defesa sólida e especializada em dívidas bancárias, sempre
-          com foco na ética, transparência e excelência jurídica.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
