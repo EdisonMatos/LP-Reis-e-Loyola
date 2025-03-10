@@ -5,7 +5,7 @@ import "../../../src/index.css";
 import { infos } from "../../content/content";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
-const whatsNumber = `${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}`;
+const whatsNumber = `55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}`;
 
 export default function WhatsChat() {
   const [isVisible, setIsVisible] = useState(false); // Controla a visibilidade do chat
