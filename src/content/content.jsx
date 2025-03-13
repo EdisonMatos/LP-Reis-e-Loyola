@@ -55,7 +55,7 @@ export const infos = {
     <div>
       <p>Endereço:</p>
       <p>Rua Brasil, nº 50, Setor Bueno</p>
-      <p>CGoiânia - GO</p>
+      <p>Goiânia - GO</p>
       <p>CEP 74215-070</p>
     </div>
   ),
