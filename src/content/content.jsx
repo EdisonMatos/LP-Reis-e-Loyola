@@ -11,9 +11,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
+
 
 
 
@@ -663,15 +661,12 @@ const content = {
       },
       images: {
         img1: {
-          img: { trustedByImg1 },
           alt: "marca Rennova",
         },
         img2: {
-          img: { trustedByImg2 },
           alt: "marca Colgate",
         },
         img3: {
-          img: { trustedByImg3 },
           alt: "marca dental Cremer",
         },
       },
