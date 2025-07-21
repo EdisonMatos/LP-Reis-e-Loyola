@@ -6,18 +6,6 @@ import aboutSocial from "../assets/imgs/about/aboutSocial.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
-
-
-
-
-
-
-
-
-
 const currentYear = new Date().getFullYear();
 
 export const infos = {
@@ -109,7 +97,6 @@ const content = {
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A_Definir",
       images: {
-        background: bgHeroImg,
         static: {
           img: {},
           alt: "",
@@ -146,7 +133,6 @@ const content = {
       title: "Soluções Reis & Loyola",
       subtitle: "",
       imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
       card1: {
         title: "Defesa do Executado",
         subtitle:

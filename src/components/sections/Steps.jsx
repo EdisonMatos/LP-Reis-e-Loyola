@@ -11,9 +11,7 @@ import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 export default function Steps() {
   const [visible, setVisible] = useState(false);
@@ -22,7 +20,6 @@ export default function Steps() {
 
   return (
     <SectionArea className="bg-bgSectionDark" paddingtop={true}>
-      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -30,18 +27,7 @@ export default function Steps() {
               backgroundImage: `url(${content.texts.steps.img})`,
             }}
             className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
-          >
-            {/* <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img> */}
-          </div>
-          {/* <img
-            src={content.texts.steps.imgSteps}
-            alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
-            className=""
-          /> */}
+          ></div>
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
