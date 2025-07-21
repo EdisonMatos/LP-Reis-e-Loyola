@@ -10,33 +10,15 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
 
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
-import teamMemberImg1 from "../assets/imgs/team/team1.webp";
-import teamMemberImg2 from "../assets/imgs/team/team2.webp";
-import teamMemberImg3 from "../assets/imgs/team/team3.webp";
-import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
 import {
   Calculator,
@@ -167,7 +149,6 @@ const content = {
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        img: featuresImg1,
         title: "Correspondência Jurídica",
         subtitle:
           "Representação em processos, audiências e despachos com excelência.",
@@ -179,7 +160,6 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +182,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card2: {
-        img: featuresImg2,
         title: "Direito Trabalhista",
         subtitle:
           "Defesa em conflitos trabalhistas para empresas e trabalhadores.",
@@ -214,7 +193,6 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +216,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card3: {
-        img: featuresImg3,
         title: "Direito Criminal",
         subtitle:
           "Defesa penal com rigor técnico e compromisso com a justiça. Atendimento 24h.",
@@ -249,7 +226,6 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +250,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
         title: "Mais áreas de atuação",
         subtitle: "Clique abaixo para ver mais",
         description: (
@@ -285,7 +260,6 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -404,7 +378,6 @@ const content = {
       },
     },
     cta: {
-      backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
         "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
@@ -488,19 +461,15 @@ const content = {
       subtitle: "A_Definir",
       images: {
         img1: {
-          img: imgTestimonial1,
           alt: "Imagem de feedback",
         },
         img2: {
-          img: imgTestimonial2,
           alt: "Imagem de feedback",
         },
         img3: {
-          img: imgTestimonial3,
           alt: "Imagem de feedback",
         },
         img4: {
-          img: imgTestimonial4,
           alt: "Imagem de feedback",
         },
       },
@@ -528,7 +497,6 @@ const content = {
       },
     },
     numbers: {
-      backgroundImg: numbersImgBg,
       number1: 7,
       number1Description: "A_Definir",
       number2: 500,
@@ -542,7 +510,6 @@ const content = {
       members: {
         member1: {
           img: {
-            img: teamMemberImg1,
             alt: "Edison Matos",
           },
           name: "Edison Matos",
@@ -608,7 +575,6 @@ const content = {
         },
         member2: {
           img: {
-            img: teamMemberImg2,
             alt: "Gabriel Adans",
           },
           name: "Gabriel Adans",
@@ -674,7 +640,6 @@ const content = {
         },
         member3: {
           img: {
-            img: teamMemberImg3,
             alt: "Gabriel Souza",
           },
           name: "Gabriel Souza",
@@ -740,7 +705,6 @@ const content = {
         },
         member4: {
           img: {
-            img: teamMemberImg4,
             alt: "Luiz Felipe",
           },
           name: "Luiz Felipe",

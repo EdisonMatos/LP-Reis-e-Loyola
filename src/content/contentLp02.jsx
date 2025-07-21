@@ -1,5 +1,4 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
@@ -13,7 +12,6 @@ const contentLp02 = {
   hero: {
     bgImg: bgImg,
     logo: {
-      logoImg: logo,
       alt: "Logomarca",
     },
     textArea: {
@@ -60,7 +58,6 @@ const contentLp02 = {
   about: {
     bgImg: bgImg,
     logo: {
-      logoImg: logo,
       alt: "Logomarca",
     },
     sectionHeader: {

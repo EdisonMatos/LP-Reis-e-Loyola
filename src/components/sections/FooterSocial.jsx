@@ -3,8 +3,6 @@ import { Phone } from "lucide-react";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content, { infos } from "../../content/content";
 import IconButton from "../interactives/IconButton";
-import imgAppStore from "../../assets/imgs/hero/appStore.png";
-import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import SectionArea from "../sectionElements/SectionArea.jsx";
 import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
