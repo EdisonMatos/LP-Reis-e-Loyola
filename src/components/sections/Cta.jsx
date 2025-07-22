@@ -3,7 +3,6 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
@@ -12,11 +11,7 @@ export default function Cta() {
   return (
     <div>
       <SectionArea className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          paddingbot={false}
-          shapeColor="text-bgSectionDark"
-        />
+       
         <SectionWrapper>
           <SectionHeader
             className="text-center"

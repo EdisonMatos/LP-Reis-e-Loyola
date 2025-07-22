@@ -1,12 +1,4 @@
-import lawService1 from "../assets/imgs/services/lawService1.jpg";
-import lawService2 from "../assets/imgs/services/lawService2.jpg";
-import lawService3 from "../assets/imgs/services/lawService3.jpg";
-import lawService4 from "../assets/imgs/services/lawService4.jpg";
-import lawService5 from "../assets/imgs/services/lawService5.jpg";
-import lawService6 from "../assets/imgs/services/lawService6.jpg";
-import lawService7 from "../assets/imgs/services/lawService7.jpg";
-import lawService8 from "../assets/imgs/services/lawService8.jpg";
-import lawService9 from "../assets/imgs/services/lawService9.jpg";
+
 
 import content from "./content";
 
@@ -56,9 +48,7 @@ const services = {
       label: "Demais áreas",
       service1: {
         name: "Direito de Família e Sucessões",
-        img: {
-          img: lawService1,
-        },
+      
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Resolução de divórcios, pensões e disputas sucessórias com foco em empatia e eficiência.",
@@ -66,9 +56,7 @@ const services = {
       },
       service2: {
         name: "Direito Administrativo",
-        img: {
-          img: lawService2,
-        },
+       
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Soluções para demandas administrativas e judiciais com atuação completa.",
@@ -76,9 +64,7 @@ const services = {
       },
       service3: {
         name: "Propriedade Intelectual",
-        img: {
-          img: lawService3,
-        },
+       
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Proteção de marcas e contratos para preservar seus direitos.",
@@ -86,9 +72,7 @@ const services = {
       },
       service4: {
         name: "Direito Empresarial",
-        img: {
-          img: lawService4,
-        },
+       
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Suporte jurídico estratégico para empresas de todos os portes.",
@@ -96,9 +80,7 @@ const services = {
       },
       service5: {
         name: "Direito Aeroportuário",
-        img: {
-          img: lawService5,
-        },
+       
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Assistência em casos de voos atrasados, cancelados e bagagens extraviadas.",
@@ -106,9 +88,7 @@ const services = {
       },
       service6: {
         name: "Direito Bancário",
-        img: {
-          img: lawService6,
-        },
+       
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Defesa em busca em apreensão, desbloqueio de contas, golpe do pix, fraudes bancárias, revisão de juros.",
@@ -116,9 +96,7 @@ const services = {
       },
       service7: {
         name: "Direito Previdenciário",
-        img: {
-          img: lawService7,
-        },
+        
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Busca de benefícios para segurados e suporte para empresas.",
@@ -126,9 +104,7 @@ const services = {
       },
       service8: {
         name: "Direito à Saúde",
-        img: {
-          img: lawService8,
-        },
+        
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Defesa dos direitos à saúde contra abusos financeiros e contratuais.",
@@ -136,9 +112,7 @@ const services = {
       },
       service9: {
         name: "Defesa do Consumidor",
-        img: {
-          img: lawService9,
-        },
+      
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
           "Proteção ao consumidor em questões jurídicas e contratuais.",

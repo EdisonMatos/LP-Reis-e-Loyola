@@ -8,7 +8,6 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
@@ -30,11 +29,6 @@ export default function DefaultModals({ modal = "true" }) {
   return (
     <div>
       <SectionArea id="service" className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          shapeColor="text-bgSectionDark"
-          paddingbot={false}
-        />
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}

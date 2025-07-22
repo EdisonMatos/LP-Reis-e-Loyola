@@ -1,44 +1,9 @@
 import logo from "../assets/imgs/logo/logo.webp";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import aboutSocial from "../assets/imgs/about/aboutSocial.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
-
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import imgAppStore from "../assets/imgs/hero/appStore.webp";
-import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
-
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
-
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
-
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
-
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
-
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
-
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
-
-import teamMemberImg1 from "../assets/imgs/team/team1.webp";
-import teamMemberImg2 from "../assets/imgs/team/team2.webp";
-import teamMemberImg3 from "../assets/imgs/team/team3.webp";
-import teamMemberImg4 from "../assets/imgs/team/team4.webp";
-
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
 const currentYear = new Date().getFullYear();
 
@@ -104,7 +69,6 @@ const content = {
       ),
       subtitle:
         "No escritório Reis & Loyola oferecemos expertise jurídica especializada em dívidas bancárias e proteção patrimonial. Com estratégias personalizadas e resultados comprovados, garantimos a defesa dos seus direitos e a segurança do seu patrimônio. Fale agora com nossos especialistas e descubra como podemos ajudar você!",
-      heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (
@@ -131,7 +95,6 @@ const content = {
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A_Definir",
       images: {
-        background: bgHeroImg,
         static: {
           img: {},
           alt: "",
@@ -153,12 +116,10 @@ const content = {
         description: "Baixe nosso aplicativo para companhar seu processo:",
         imgs: {
           appStore: {
-            img: imgAppStore,
             alt: "Ícone da App Store",
             link: "#",
           },
           playStore: {
-            img: imgGooglePlay,
             alt: "Ícone da Play Store",
             link: "#",
           },
@@ -170,9 +131,7 @@ const content = {
       title: "Soluções Reis & Loyola",
       subtitle: "",
       imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
       card1: {
-        img: featuresImg1,
         title: "Defesa do Executado",
         subtitle:
           "Oferecemos representação jurídica especializada para pessoas físicas e jurídicas que estão enfrentando processos de execução ou cobrança por dívidas bancárias. Atuamos para garantir a proteção dos direitos do nosso cliente, evitando medidas abusivas e protegendo seu patrimônio.",
@@ -184,7 +143,6 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -207,7 +165,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card2: {
-        img: featuresImg2,
         title: "(Re)Negociação Bancária",
         subtitle:
           "Realizamos uma análise detalhada de contratos e dívidas bancárias, identificando irregularidades e abusividades. Por meio de negociações estratégicas, conseguimos repactuar débitos com até 90% de desconto no valor da dívida, oferecendo uma solução eficiente e personalizada para você recuperar sua saúde financeira.",
@@ -219,7 +176,6 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +198,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card3: {
-        img: featuresImg3,
         title: "Dívidas Rurais: Soluções Especializadas para o Produtor Rural",
         subtitle:
           "Oferecemos assistência jurídica especializada para produtores rurais, solucionando débitos sem comprometer seu patrimônio. Nossa equipe analisa detalhadamente todos os tipos de contratos rurais, como Contratos de Custeio, Barter, Cédulas de Crédito Rural - CCR, Cédulas de Crédito Bancário - CCB, Células de Produto Rural - CPR e CPR Financeira, entre outros, para encontrar a solução ideal para o seu caso.",
@@ -253,7 +208,6 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -281,7 +235,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
         title: "Gestão de Passivos Bancários Empresariais e de Pessoas Físicas",
         subtitle:
           "Oferecemos soluções eficazes para a gestão de passivos bancários, tanto para empresas quanto para pessoas físicas. Com orientação jurídica especializada, atuamos na renegociação de dívidas, defesa de contratos financeiros, combate a cobranças indevidas e proteção dos direitos financeiros de nossos clientes.",
@@ -293,7 +246,6 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -318,7 +270,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: featuresImg4,
         title: "Defesa em Leilão Judicial e Extrajudicial",
         subtitle:
           "Atuamos para suspender e anular leilões de bens imóveis, veículos e outros patrimônios ameaçados por penhoras. Nossa equipe especializada utiliza estratégias jurídicas eficientes para interromper processos de leilão, garantindo a proteção do seu patrimônio e a defesa dos seus direitos.",
@@ -330,7 +281,6 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -355,7 +305,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card6: {
-        img: featuresImg4,
         title: "Juros Abusivos",
         subtitle:
           "Identificamos e combatemos juros abusivos em contratos bancários, garantindo a revisão das taxas aplicadas e a restituição dos valores pagos indevidamente. Nossa equipe especializada irá analisar detalhadamente o seu caso podendo reduzir drasticamente o valor de suas parcelas.",
@@ -367,7 +316,6 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -390,7 +338,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card7: {
-        img: featuresImg4,
         title: "Fraudes Bancárias",
         subtitle:
           "Oferecemos uma equipe especializada em fraudes e golpes bancários. Em muitos casos, a responsabilidade pela fraude é da instituição financeira, que falhou em adotar medidas para prevenir a ação de criminosos. Traçamos estratégias personalizadas para identificar irregularidades, responsabilizar os culpados e recuperar o seu dinheiro de forma ágil e segura.",
@@ -422,7 +369,6 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card8: {
-        img: featuresImg4,
         title: "Superendividamento de Funcionário Público",
         subtitle:
           "Buscamos a melhor estratégia para funcionários públicos que enfrentam o superendividamento, garantindo que a cobrança sobre seus proventos seja reduzida ao limite de 30%, conforme permitido pela Lei do Superendividamento. Nossa equipe especializada atua para proteger seus rendimentos e devolver sua tranquilidade financeira.",
@@ -579,7 +525,6 @@ const content = {
       },
     },
     cta: {
-      backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
         "Buscando soluções para a suas dívidas? Deixe que cuidamos disso pra você!",
@@ -678,19 +623,15 @@ const content = {
       subtitle: "A_Definir",
       images: {
         img1: {
-          img: imgTestimonial1,
           alt: "Imagem de feedback",
         },
         img2: {
-          img: imgTestimonial2,
           alt: "Imagem de feedback",
         },
         img3: {
-          img: imgTestimonial3,
           alt: "Imagem de feedback",
         },
         img4: {
-          img: imgTestimonial4,
           alt: "Imagem de feedback",
         },
       },
@@ -704,21 +645,17 @@ const content = {
       },
       images: {
         img1: {
-          img: { trustedByImg1 },
           alt: "marca Rennova",
         },
         img2: {
-          img: { trustedByImg2 },
           alt: "marca Colgate",
         },
         img3: {
-          img: { trustedByImg3 },
           alt: "marca dental Cremer",
         },
       },
     },
     numbers: {
-      backgroundImg: numbersImgBg,
       number1: 7,
       number1Description: "A_Definir",
       number2: 500,
@@ -740,7 +677,6 @@ const content = {
       members: {
         member1: {
           img: {
-            img: teamMemberImg1,
             alt: "Edison Matos",
           },
           name: "Edison Matos",
@@ -806,7 +742,6 @@ const content = {
         },
         member2: {
           img: {
-            img: teamMemberImg2,
             alt: "Gabriel Adans",
           },
           name: "Gabriel Adans",
@@ -872,7 +807,6 @@ const content = {
         },
         member3: {
           img: {
-            img: teamMemberImg3,
             alt: "Gabriel Souza",
           },
           name: "Gabriel Souza",
@@ -938,7 +872,6 @@ const content = {
         },
         member4: {
           img: {
-            img: teamMemberImg4,
             alt: "Luiz Felipe",
           },
           name: "Luiz Felipe",

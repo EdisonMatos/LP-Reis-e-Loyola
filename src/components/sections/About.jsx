@@ -11,9 +11,7 @@ import "primeicons/primeicons.css";
 import content, { abstractions } from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -48,7 +46,6 @@ export default function About({ modal }) {
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -56,18 +53,7 @@ export default function About({ modal }) {
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
             className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
-          >
-            {/* <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img> */}
-          </div>
-          {/* <img
-            src={content.texts.about.imagem.img}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-        /> */}
+          ></div>
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">

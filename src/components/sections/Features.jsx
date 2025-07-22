@@ -9,25 +9,23 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
-import FeatureModalWithCards from "./FeatureModalWithCards";
-import Features6cards from "./Features6cards";
-import FeaturesParagraphs from "./FeaturesParagraphs";
-import FeaturesButton from "./FeaturesButton";
 import DefaultModals from "./DefaultModals";
 
-export default function Features({ modal, defaultFeature, modalWithCards, sixCards, paragraphs, button, paragraphsModal }) {
+export default function Features({
+  modal,
+  defaultFeature,
+  modalWithCards,
+  sixCards,
+  paragraphs,
+  button,
+  paragraphsModal,
+}) {
   return (
     <div>
       {defaultFeature && (
         <SectionArea id="service" className="squares">
-          <SectionShapeDiv
-            shapeDivArrow={false}
-            shapeColor="text-bgSectionDark"
-            paddingbot={false}
-          />
           <SectionHeader
             className="text-center"
             miniTitle={content.texts.features.miniTag}
@@ -93,10 +91,6 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
           </SectionWrapper>
         </SectionArea>
       )}
-      {modalWithCards && <FeatureModalWithCards />}
-      {sixCards && <Features6cards />}
-      {paragraphs && <FeaturesParagraphs />}
-      {button && <FeaturesButton />}
       {paragraphsModal && <DefaultModals />}
     </div>
   );

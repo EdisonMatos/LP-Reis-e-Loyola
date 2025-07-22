@@ -8,10 +8,8 @@ import Steps from "../components/sections/Steps";
 import Maps from "../components/sections/Maps";
 import Faq from "../components/sections/Faq";
 import FooterSocial from "../components/sections/FooterSocial";
-import DefaultModals from "../components/sections/DefaultModals";
 import WhatsChat from "../components/interactives/WhatsChat";
 
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 
 export default function Index() {
@@ -49,7 +47,6 @@ export default function Index() {
         x={false}
         obs={false}
       />
-      {/* <FloatingWhatsappButton /> */}
       <WhatsChat />
       <BackToTopButton />
     </div>
