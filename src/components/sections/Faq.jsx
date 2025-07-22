@@ -9,7 +9,7 @@ import content from "../../content/content";
 export default function Faq() {
   return (
     <div className="">
-      <SectionArea id="faq" className="bg-neutral-100" paddingtop={false}>
+      <SectionArea id="faq" className="bg-neutral-100" >
        
         <SectionHeader
           className="text-center"

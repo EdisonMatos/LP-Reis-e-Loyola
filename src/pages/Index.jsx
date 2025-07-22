@@ -5,7 +5,6 @@ import About from "../components/sections/About";
 import AboutInstagram from "../components/sections/AboutInstagram";
 import Cta from "../components/sections/Cta";
 import Steps from "../components/sections/Steps";
-import Maps from "../components/sections/Maps";
 import Faq from "../components/sections/Faq";
 import FooterSocial from "../components/sections/FooterSocial";
 import WhatsChat from "../components/interactives/WhatsChat";

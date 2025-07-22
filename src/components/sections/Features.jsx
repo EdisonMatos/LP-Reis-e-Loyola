@@ -9,7 +9,6 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
-import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
 import DefaultModals from "./DefaultModals";
 
