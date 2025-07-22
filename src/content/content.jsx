@@ -1,5 +1,4 @@
 import logo from "../assets/imgs/logo/logo.webp";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import aboutSocial from "../assets/imgs/about/aboutSocial.webp";
@@ -70,7 +69,6 @@ const content = {
       ),
       subtitle:
         "No escritório Reis & Loyola oferecemos expertise jurídica especializada em dívidas bancárias e proteção patrimonial. Com estratégias personalizadas e resultados comprovados, garantimos a defesa dos seus direitos e a segurança do seu patrimônio. Fale agora com nossos especialistas e descubra como podemos ajudar você!",
-      heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (

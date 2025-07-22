@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
-import TabComponent from "../sectionElements/TabComponent";
 import PropTypes from "prop-types";
 // import CardModal from "../sectionElements/CardModal";
 import ModalComponent from "../interactives/ModalComponent";

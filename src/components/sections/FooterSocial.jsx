@@ -5,7 +5,6 @@ import content, { infos } from "../../content/content";
 import IconButton from "../interactives/IconButton";
 import SectionArea from "../sectionElements/SectionArea.jsx";
 import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
 import { CalendarCheck2 } from "lucide-react";
 import { MapPin } from "lucide-react";

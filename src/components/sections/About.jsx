@@ -12,7 +12,6 @@ import content, { abstractions } from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import AboutFading from "../sectionElements/AboutFading";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -47,7 +46,6 @@ export default function About({ modal }) {
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
