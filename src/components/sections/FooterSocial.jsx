@@ -1,17 +1,16 @@
-import { Link } from "react-scroll";
-import { Phone } from "lucide-react";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content, { infos } from "../../content/content";
-import IconButton from "../interactives/IconButton";
-import SectionArea from "../sectionElements/SectionArea.jsx";
-import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
-import { FaWhatsapp } from "react-icons/fa";
-import { CalendarCheck2 } from "lucide-react";
-import { MapPin } from "lucide-react";
-import { Mail } from "lucide-react";
-import { classNames } from "primereact/utils";
+import { Link } from 'react-scroll'
+import { Phone } from 'lucide-react'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import content, { infos } from '../../content/content'
+import IconButton from '../interactives/IconButton'
+import SectionArea from '../sectionElements/SectionArea.jsx'
+import SectionWrapper from '../sectionElements/SectionWrapper.jsx'
+import { FaWhatsapp } from 'react-icons/fa'
+import { CalendarCheck2 } from 'lucide-react'
+import { MapPin } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`
 
 export default function FooterSocial({
   LightMode,
@@ -26,8 +25,8 @@ export default function FooterSocial({
     <footer
       className={
         LightMode
-          ? "black"
-          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+          ? 'black'
+          : 'bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat'
       }
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
@@ -46,7 +45,7 @@ export default function FooterSocial({
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+                  <FaWhatsapp size={24} color={LightMode ? 'black' : 'white'} />
 
                   <a
                     href={whatsappContactLink}
@@ -89,7 +88,7 @@ export default function FooterSocial({
 
               {obs && (
                 <MotionDivDownToUp>
-                  {" "}
+                  {' '}
                   <div className="flex full gap-x-[12px] items-center opacity-90">
                     <div>
                       <svg
@@ -158,12 +157,12 @@ export default function FooterSocial({
               <MotionDivDownToUp>
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
-                  {" "}
+                  {' '}
                   <div className="flex gap-[10px] items-center">
                     {/* Instagram icon */}
                     {instagram && (
                       <MotionDivDownToUp>
-                        {" "}
+                        {' '}
                         <a
                           href={content.texts.links.instagram}
                           target="_blank"
@@ -204,7 +203,7 @@ export default function FooterSocial({
 
                     {facebook && (
                       <MotionDivDownToUp>
-                        {" "}
+                        {' '}
                         <a
                           href={content.texts.links.facebook}
                           target="_blank"
@@ -235,7 +234,7 @@ export default function FooterSocial({
 
                     {x && (
                       <MotionDivDownToUp>
-                        {" "}
+                        {' '}
                         <a
                           href={content.texts.links.x}
                           target="_blank"
@@ -265,7 +264,7 @@ export default function FooterSocial({
 
                     {linkedin && (
                       <MotionDivDownToUp>
-                        {" "}
+                        {' '}
                         <a href={content.texts.links.linkedin} target="_blank">
                           <IconButton
                             icon={
@@ -383,7 +382,7 @@ export default function FooterSocial({
                 target="_blank"
                 href="https://www.paperstreet.com.br"
               >
-                {" "}
+                {' '}
                 {content.texts.infos.footerDivulgacaoText}
               </a>
             </p>
@@ -391,5 +390,5 @@ export default function FooterSocial({
         </SectionWrapper>
       </SectionArea>
     </footer>
-  );
+  )
 }
